@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2B3624AA-636B-4DDA-8638-293A964FE9B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend-dotnet", "backend-dotnet", "{B61EF04F-01C9-4638-B4D7-0276ED27CA42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PymesRetail.Api", "src\backend-dotnet\PymesRetail.Api\PymesRetail.Api.csproj", "{233BC706-2C27-4ABF-8C31-BEDB5D9B66A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PymesRetail.Core", "src\backend-dotnet\PymesRetail.Core\PymesRetail.Core.csproj", "{B0459AE2-181A-4630-8AB6-BF65EDCA5E86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PymesRetail.Redis", "src\backend-dotnet\PymesRetail.Redis\PymesRetail.Redis.csproj", "{1F477803-75FF-428B-8526-B803B7A26E5B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PymesRetail.Tests", "src\backend-dotnet\PymesRetail.Tests\PymesRetail.Tests.csproj", "{E565D07F-EDD9-457F-A7A9-3F24650FCEEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{233BC706-2C27-4ABF-8C31-BEDB5D9B66A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{233BC706-2C27-4ABF-8C31-BEDB5D9B66A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{233BC706-2C27-4ABF-8C31-BEDB5D9B66A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{233BC706-2C27-4ABF-8C31-BEDB5D9B66A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0459AE2-181A-4630-8AB6-BF65EDCA5E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0459AE2-181A-4630-8AB6-BF65EDCA5E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0459AE2-181A-4630-8AB6-BF65EDCA5E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0459AE2-181A-4630-8AB6-BF65EDCA5E86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F477803-75FF-428B-8526-B803B7A26E5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F477803-75FF-428B-8526-B803B7A26E5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F477803-75FF-428B-8526-B803B7A26E5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F477803-75FF-428B-8526-B803B7A26E5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E565D07F-EDD9-457F-A7A9-3F24650FCEEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E565D07F-EDD9-457F-A7A9-3F24650FCEEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E565D07F-EDD9-457F-A7A9-3F24650FCEEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E565D07F-EDD9-457F-A7A9-3F24650FCEEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B61EF04F-01C9-4638-B4D7-0276ED27CA42} = {2B3624AA-636B-4DDA-8638-293A964FE9B3}
+		{233BC706-2C27-4ABF-8C31-BEDB5D9B66A4} = {B61EF04F-01C9-4638-B4D7-0276ED27CA42}
+		{B0459AE2-181A-4630-8AB6-BF65EDCA5E86} = {B61EF04F-01C9-4638-B4D7-0276ED27CA42}
+		{1F477803-75FF-428B-8526-B803B7A26E5B} = {B61EF04F-01C9-4638-B4D7-0276ED27CA42}
+		{E565D07F-EDD9-457F-A7A9-3F24650FCEEA} = {B61EF04F-01C9-4638-B4D7-0276ED27CA42}
+	EndGlobalSection
+EndGlobal
